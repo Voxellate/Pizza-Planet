@@ -1,10 +1,14 @@
 .menu-item  {
     width: 250px;
     padding: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     float: left;
     align-content: center;
     background-color: #cccccc;
     border-radius: 10px;
+}
+
+#contents {
+    padding: 10px;
 }

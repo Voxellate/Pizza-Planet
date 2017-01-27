@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef2165e8-7976-4805-85c6-48373a71c402" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Lucas.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db.php" />
-    </list>
+    <list default="true" id="ef2165e8-7976-4805-85c6-48373a71c402" name="Default" comment="" />
     <ignored path="Pizza-Planet.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -47,7 +42,7 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="pizzas" />
+        <option name="myItemId" value="orders" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -61,42 +56,54 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+            <state relative-caret-position="182">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
               <folding>
-                <marker date="1484123987184" expanded="true" signature="528:563" ph="SELECT DISTI... sports" />
-                <marker date="1484123987184" expanded="true" signature="528:569" ph="SELECT DISTI... pizzas" />
-                <marker date="1484123987184" expanded="true" signature="670:672" ph="..." />
-                <marker date="1484123987184" expanded="true" signature="670:693" ph="..." />
-                <marker date="1484123987184" expanded="true" signature="670:694" ph="..." />
-                <marker date="1484123987184" expanded="true" signature="670:761" ph="..." />
-                <marker date="1484123987184" expanded="true" signature="670:1571" ph="..." />
-                <marker date="1484123987184" expanded="true" signature="670:1586" ph="..." />
-                <marker date="1484123987184" expanded="true" signature="761:762" ph="..." />
-                <marker date="1484123987184" expanded="true" signature="784:822" ph="..." />
-                <marker date="1484123987184" expanded="true" signature="880:1571" ph="..." />
-                <marker date="1484123987184" expanded="true" signature="923:1056" ph="..." />
-                <marker date="1484123987184" expanded="true" signature="1167:1185" ph="..." />
-                <marker date="1484123987184" expanded="true" signature="1229:1361" ph="..." />
-                <marker date="1484123987184" expanded="true" signature="1404:1556" ph="..." />
-                <marker date="1484123987184" expanded="true" signature="1524:1556" ph="..." />
+                <marker date="1485423320064" expanded="true" signature="664:707" ph="SELECT DISTI... pizzas" />
+                <marker date="1485423320064" expanded="true" signature="814:2055" ph="..." />
+                <marker date="1485423320064" expanded="true" signature="970:1008" ph="..." />
+                <marker date="1485423320064" expanded="true" signature="1119:1271" ph="..." />
+                <marker date="1485423320064" expanded="true" signature="1309:2036" ph="..." />
+                <marker date="1485423320064" expanded="true" signature="1356:1495" ph="..." />
+                <marker date="1485423320064" expanded="true" signature="1608:1626" ph="..." />
+                <marker date="1485423320064" expanded="true" signature="1674:1812" ph="..." />
+                <marker date="1485423320064" expanded="true" signature="1859:2017" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pizza-planet.pizzas" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/c768f1d2/d6546f33-1d01-41b9-8ae7-623f86a04d3b/pizza-planet.pizzas">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+              <folding>
+                <marker date="1485496205282" expanded="true" signature="1514:1537" ph="..." />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </entry>
+      </file>
+      <file leaf-file-name="request.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/request.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding>
-                <marker date="0" expanded="true" signature="0:235" ph="CREATE TABLE... pizzas" />
+                <marker date="1485404455276" expanded="true" signature="48:91" ph="SELECT DISTI... pizzas" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <folding>
+                <marker date="1485497530802" expanded="true" signature="97:143" ph="INSERT INTO orders... " />
               </folding>
             </state>
           </provider>
@@ -105,28 +112,48 @@
       <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pizza-planet.pizzas" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/c768f1d2/d6546f33-1d01-41b9-8ae7-623f86a04d3b/pizza-planet.pizzas">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pizza-planet.orders" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/c768f1d2/d6546f33-1d01-41b9-8ae7-623f86a04d3b/pizza-planet.orders">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -163,11 +190,15 @@
         <option value="$PROJECT_DIR$/shopping-cart.js" />
         <option value="$PROJECT_DIR$/quantity.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/db.php" />
-        <option value="$PROJECT_DIR$/script.js" />
         <option value="dbtable:/c768f1d2/d6546f33-1d01-41b9-8ae7-623f86a04d3b/pizza-planet.pizzas" />
-        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/queries.php" />
+        <option value="$PROJECT_DIR$/price.php" />
+        <option value="$PROJECT_DIR$/db.php" />
+        <option value="$PROJECT_DIR$/request.php" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/script.js" />
+        <option value="$PROJECT_DIR$/order.php" />
       </list>
     </option>
   </component>
@@ -214,6 +245,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Tests" />
+      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -248,17 +284,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../aps_system2" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="ToolWindowVersion Control.ShowToolbar" value="false" />
   </component>
   <component name="RunManager" selected="PHP Web Application.xampp">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -339,30 +374,42 @@
       <workItem from="1483918615191" duration="15451000" />
       <workItem from="1484089629371" duration="3113000" />
       <workItem from="1484101866953" duration="14108000" />
+      <workItem from="1484265622577" duration="4359000" />
+      <workItem from="1484306333613" duration="596000" />
+      <workItem from="1484360872801" duration="1250000" />
+      <workItem from="1484544310269" duration="12947000" />
+      <workItem from="1484600835546" duration="19655000" />
+      <workItem from="1484863136682" duration="3640000" />
+      <workItem from="1484883001359" duration="16339000" />
+      <workItem from="1485058373114" duration="3262000" />
+      <workItem from="1485385195754" duration="32248000" />
+      <workItem from="1485462864070" duration="4822000" />
+      <workItem from="1485495461920" duration="2189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49311000" />
+    <option name="totallyTimeSpent" value="150618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14895834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15938166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15677084" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1652452" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -380,31 +427,156 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="11" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1485423320064" expanded="true" signature="664:707" ph="SELECT DISTI... pizzas" />
+            <marker date="1485423320064" expanded="true" signature="814:2055" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="970:1008" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1119:1271" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1309:2036" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1356:1495" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1608:1626" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1674:1812" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1859:2017" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/c768f1d2/d6546f33-1d01-41b9-8ae7-623f86a04d3b/pizza-planet.pizzas">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <marker date="1485496205282" expanded="true" signature="1514:1537" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d6546f33-1d01-41b9-8ae7-623f86a04d3b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <marker date="1485423320064" expanded="true" signature="664:707" ph="SELECT DISTI... pizzas" />
+            <marker date="1485423320064" expanded="true" signature="814:2055" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="970:1008" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1119:1271" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1309:2036" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1356:1495" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1608:1626" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1674:1812" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1859:2017" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/c768f1d2/d6546f33-1d01-41b9-8ae7-623f86a04d3b/pizza-planet.pizzas">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <marker date="1485496205282" expanded="true" signature="1514:1537" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d6546f33-1d01-41b9-8ae7-623f86a04d3b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="123" selection-start-line="23" selection-start-column="123" selection-end-line="23" selection-end-column="123" />
           <folding>
-            <marker date="1484123987184" expanded="true" signature="528:563" ph="SELECT DISTI... sports" />
-            <marker date="1484123987184" expanded="true" signature="528:569" ph="SELECT DISTI... pizzas" />
-            <marker date="1484123987184" expanded="true" signature="670:672" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:693" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:694" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:761" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:1571" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:1586" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="761:762" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="784:822" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="880:1571" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="923:1056" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="1167:1185" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="1229:1361" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="1404:1556" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="1524:1556" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="664:707" ph="SELECT DISTI... pizzas" />
+            <marker date="1485423320064" expanded="true" signature="814:2055" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="970:1008" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1119:1271" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1309:2036" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1356:1495" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1608:1626" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1674:1812" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1859:2017" ph="..." />
           </folding>
         </state>
       </provider>
@@ -421,18 +593,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
+          <folding>
+            <marker date="1485496205282" expanded="true" signature="1514:1537" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oldindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/oldindex.html" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d6546f33-1d01-41b9-8ae7-623f86a04d3b/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -446,22 +613,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484123987184" expanded="true" signature="528:563" ph="SELECT DISTI... sports" />
-            <marker date="1484123987184" expanded="true" signature="528:569" ph="SELECT DISTI... pizzas" />
-            <marker date="1484123987184" expanded="true" signature="670:672" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:693" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:694" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:761" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:1571" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:1586" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="761:762" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="784:822" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="880:1571" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="923:1056" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="1167:1185" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="1229:1361" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="1404:1556" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="1524:1556" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="664:707" ph="SELECT DISTI... pizzas" />
+            <marker date="1485423320064" expanded="true" signature="814:2055" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="970:1008" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1119:1271" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1309:2036" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1356:1495" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1608:1626" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1674:1812" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1859:2017" ph="..." />
           </folding>
         </state>
       </provider>
@@ -478,7 +638,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
-          <folding />
+          <folding>
+            <marker date="1485496205282" expanded="true" signature="1514:1537" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -495,22 +657,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484123987184" expanded="true" signature="528:563" ph="SELECT DISTI... sports" />
-            <marker date="1484123987184" expanded="true" signature="528:569" ph="SELECT DISTI... pizzas" />
-            <marker date="1484123987184" expanded="true" signature="670:672" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:693" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:694" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:761" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:1571" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:1586" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="761:762" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="784:822" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="880:1571" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="923:1056" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="1167:1185" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="1229:1361" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="1404:1556" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="1524:1556" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="664:707" ph="SELECT DISTI... pizzas" />
+            <marker date="1485423320064" expanded="true" signature="814:2055" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="970:1008" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1119:1271" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1309:2036" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1356:1495" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1608:1626" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1674:1812" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1859:2017" ph="..." />
           </folding>
         </state>
       </provider>
@@ -519,7 +674,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
+          <folding>
+            <marker date="1485496205282" expanded="true" signature="1514:1537" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -543,14 +700,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php" />
     <entry file="file://$PROJECT_DIR$/db.js" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d6546f33-1d01-41b9-8ae7-623f86a04d3b/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d6546f33-1d01-41b9-8ae7-623f86a04d3b/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -562,75 +711,194 @@
     <entry file="file://$PROJECT_DIR$/db.js" />
     <entry file="file://$PROJECT_DIR$/index.php" />
     <entry file="file://$PROJECT_DIR$/quantity.js" />
-    <entry file="file://$PROJECT_DIR$/oldindex.html">
+    <entry file="file://$PROJECT_DIR$/oldindex.html" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d6546f33-1d01-41b9-8ae7-623f86a04d3b/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="25" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/c768f1d2/d6546f33-1d01-41b9-8ae7-623f86a04d3b/pizza-planet.pizzas">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/c768f1d2/d6546f33-1d01-41b9-8ae7-623f86a04d3b/pizza-planet.pizzas">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/c768f1d2/d6546f33-1d01-41b9-8ae7-623f86a04d3b/pizza-planet.pizzas">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/c768f1d2/d6546f33-1d01-41b9-8ae7-623f86a04d3b/pizza-planet.pizzas">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/price.php" />
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/c768f1d2/d6546f33-1d01-41b9-8ae7-623f86a04d3b/pizza-planet.orders">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/c768f1d2/d6546f33-1d01-41b9-8ae7-623f86a04d3b/pizza-planet.orders">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/c768f1d2/d6546f33-1d01-41b9-8ae7-623f86a04d3b/pizza-planet.orders">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding>
-            <marker date="0" expanded="true" signature="0:235" ph="CREATE TABLE... pizzas" />
+            <marker date="1485404455276" expanded="true" signature="48:91" ph="SELECT DISTI... pizzas" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/c768f1d2/d6546f33-1d01-41b9-8ae7-623f86a04d3b/pizza-planet.orders">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/c768f1d2/d6546f33-1d01-41b9-8ae7-623f86a04d3b/pizza-planet.pizzas">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+        <state relative-caret-position="182">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
           <folding>
-            <marker date="1484123987184" expanded="true" signature="528:563" ph="SELECT DISTI... sports" />
-            <marker date="1484123987184" expanded="true" signature="528:569" ph="SELECT DISTI... pizzas" />
-            <marker date="1484123987184" expanded="true" signature="670:672" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:693" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:694" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:761" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:1571" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="670:1586" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="761:762" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="784:822" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="880:1571" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="923:1056" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="1167:1185" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="1229:1361" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="1404:1556" ph="..." />
-            <marker date="1484123987184" expanded="true" signature="1524:1556" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="664:707" ph="SELECT DISTI... pizzas" />
+            <marker date="1485423320064" expanded="true" signature="814:2055" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="970:1008" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1119:1271" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1309:2036" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1356:1495" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1608:1626" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1674:1812" ph="..." />
+            <marker date="1485423320064" expanded="true" signature="1859:2017" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="531">
+          <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+          <folding>
+            <marker date="1485496205282" expanded="true" signature="1514:1537" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <marker date="1485497530802" expanded="true" signature="97:143" ph="INSERT INTO orders... " />
+          </folding>
         </state>
       </provider>
     </entry>

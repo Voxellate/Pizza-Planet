@@ -9,25 +9,34 @@
     <schema id="4" name="performance_schema"/>
     <schema id="5" name="phpmyadmin"/>
     <table id="6" parent="1" name="pizzas"/>
-    <column id="7" parent="6" name="id">
+    <table id="7" parent="1" name="orders"/>
+    <column id="8" parent="6" name="id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="8" parent="6" name="name">
+    <column id="9" parent="6" name="name">
       <mandatory>1</mandatory>
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="9" parent="6" name="price">
+    <column id="10" parent="6" name="price">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="10" parent="6" name="display">
-      <mandatory>1</mandatory>
-      <data-type>varchar(255)|0</data-type>
-    </column>
     <key id="11" parent="6" name="PRIMARY">
       <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="12" parent="7" name="order_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="13" parent="7" name="details">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="14" parent="7" name="PRIMARY">
+      <columns>order_id</columns>
       <primary>1</primary>
     </key>
   </database-model>
