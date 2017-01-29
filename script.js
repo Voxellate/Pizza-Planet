@@ -78,6 +78,6 @@ function placeOrder () {
     var send = cart;
     $.ajax({
         url: "request.php",
-        data: JSON.toString(send)
+        data: {'order' : JSON.toString(send)}
     });
 }

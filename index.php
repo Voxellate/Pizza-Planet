@@ -47,13 +47,54 @@ include_once("db.php"); //Includes db.php file as if it was copy-pasted
         ?>
     </td>
     <td style="width: 16%">
+
     <table id='contents' class='table table-responsive' style="width: 100%; align-content: center">
 
     </table>
-        <button onclick="cartClear();document.getElementById('output').innerHTML = cart;">Clear</button>
-        <button onclick="placeOrder()">Submit</button>
+
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="$('#myModal').modal(options)">Order</button>
+            <button class="btn btn-secondary" onclick="cartClear();">Clear</button>
+        </div>
     </td>
     </tr>
+</table>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content" style="padding: 10px">
+            <h1>Your Order</h1><br>
+            <form>
+                <div class="form-group row">
+                    <label for="name" class="col-2 col-form-label">Name: </label>
+                    <input type="text" class="col-8 form-control" name="name" id="name" placeholder="Name" required>
+                </div>
+                <div class="form-group row">
+                    <label for="address" class="col-2 col-form-label">Address: </label>
+                    <input type="address" class="col-8 form-control" name="address" id="address" placeholder="Address" required>
+                </div>
+                <div class="form-group row" style="padding-left: 15px">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="method" id="pickup" value="pickup" required>Pick-up
+                        </label>
+                    </div>
+                    <div class="form-check" style="padding-left: 15px">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="method" id="delivery" value="delivery" required>Delivery
+                            </label>
+                    </div>
+                </div>
+                <input type="submit" class="btn btn-primary" onclick="placeOrder();">
+            </form>
+        </div>
+    </div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
 
