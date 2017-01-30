@@ -3,6 +3,8 @@ var source = [];
 var session = sessionStorage.getItem("sessionCart");
 if (session != null) {cart = JSON.parse(sessionStorage.getItem("sessionCart"));}
 
+$('document').ready(cartDisplay);
+
 $.ajax({
     url: "request.php",
     success: function(result){source = JSON.parse(result);}
@@ -29,10 +31,6 @@ function cartRemove(id)  {
         if (cart[x].id == id) {cart.splice(x,1)}
     }
     cartDisplay();
-
-    //id = cart.indexOf(id);
-    //cart.splice(id,1);
-    //cartDisplay();
 }
 
 function cartDisplay () {
@@ -44,7 +42,7 @@ function cartDisplay () {
             "<td><p>" + cart[i].size + " " + cart[i].name + "</p></td>" +
             "<td><p>" + cart[i].quantity + "</p></td>" +
             "<td><p>$"+ cart[i].price + "</p></td>" +
-            "<td><p onclick='cartRemove(" + cart[i].id + ")'>x</p></td></tr>")
+            "<td><button type='button' class='close' aria-label='Close' onclick='cartRemove(" + cart[i].id + ")'><span aria-hidden='true'>&times;</span></button></td></tr>")
     });
 }
 
@@ -75,9 +73,12 @@ function quantity(inc, id)  {
 }
 
 function placeOrder () {
-    var send = cart;
+    var form = $('form').serializeArray();
+    var order = [cart, form[0].value, form[1].value, form[2].value];
     $.ajax({
-        url: "request.php",
-        data: {'order' : JSON.toString(send)}
+        url: "order.php",
+        type: 'POST',
+        data: {'order' : JSON.stringify(order)},
+        success: function(data){alert(data);}
     });
 }

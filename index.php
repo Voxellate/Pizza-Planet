@@ -20,10 +20,10 @@ include_once("db.php"); //Includes db.php file as if it was copy-pasted
         <?php
         $sql = dbquery("SELECT DISTINCT id, name, price FROM pizzas");
         while($cell = mysqli_fetch_assoc($sql)){
+            $display = $cell['name'] . '    $5';
             echo "<div class='{$cell['id']} menu-item'>
             <img src='img/{$cell['name']}.png'  title='{$cell['name']}' alt='{$cell['name']}'>
-            <p>{$cell['price']}</p>
-            <h3 style='font-weight: bold; text-align: center;'>{$cell['name']}</h3>
+            <h3 style='font-weight: bold; text-align: center;'>{$display}</h3>
             <select id='{$cell['id']} size' class=\"form-control\" id=\"exampleSelect1\">
                     <option>Small</option>
                     <option>Medium</option>
@@ -47,13 +47,10 @@ include_once("db.php"); //Includes db.php file as if it was copy-pasted
         ?>
     </td>
     <td style="width: 16%">
-
     <table id='contents' class='table table-responsive' style="width: 100%; align-content: center">
-
     </table>
-
         <div class="btn-group" role="group" aria-label="Basic example">
-            <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="$('#myModal').modal(options)">Order</button>
+            <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="$('#myModal').modal(options);">Order</button>
             <button class="btn btn-secondary" onclick="cartClear();">Clear</button>
         </div>
     </td>
@@ -64,14 +61,14 @@ include_once("db.php"); //Includes db.php file as if it was copy-pasted
     <div class="modal-dialog modal-lg">
         <div class="modal-content" style="padding: 10px">
             <h1>Your Order</h1><br>
-            <form>
+            <form method="post">
                 <div class="form-group row">
                     <label for="name" class="col-2 col-form-label">Name: </label>
                     <input type="text" class="col-8 form-control" name="name" id="name" placeholder="Name" required>
                 </div>
                 <div class="form-group row">
                     <label for="address" class="col-2 col-form-label">Address: </label>
-                    <input type="address" class="col-8 form-control" name="address" id="address" placeholder="Address" required>
+                    <input type="text" class="col-8 form-control" name="address" id="address" placeholder="Address" required>
                 </div>
                 <div class="form-group row" style="padding-left: 15px">
                     <div class="form-check">
@@ -85,14 +82,14 @@ include_once("db.php"); //Includes db.php file as if it was copy-pasted
                             </label>
                     </div>
                 </div>
-                <input type="submit" class="btn btn-primary" onclick="placeOrder();">
+                <button class="btn btn-primary" onclick="placeOrder();">Order</button>
             </form>
         </div>
     </div>
 </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
