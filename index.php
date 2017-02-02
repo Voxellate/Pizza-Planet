@@ -15,30 +15,48 @@ include_once("db.php"); //Includes db.php file as if it was copy-pasted
 </head>
 
 <body>
+<nav class="navbar navbar-toggleable-sm navbar-light bg-faded">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <span class="navbar-brand">Pizza Planet</span>
+        <span class="mr-auto mt-2"></span>
+
+    </div>
+</nav>
+
+<div class="alert alert-success alert-dismissible fade show" id="success" style="visibility: hidden" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <strong>Success!</strong> Your order was successfully placed.
+</div>
+
 <table style="margin: 10px"><tr>
     <td id="menu" style="width: 80%;">
         <?php
-        $sql = dbquery("SELECT DISTINCT id, name, price FROM pizzas");
+        $sql = dbquery("SELECT DISTINCT pizza_id, name, price FROM pizzas");
         while($cell = mysqli_fetch_assoc($sql)){
             $display = $cell['name'] . '    $5';
-            echo "<div class='{$cell['id']} menu-item'>
+            echo "<div class='{$cell['pizza_id']} menu-item'>
             <img src='img/{$cell['name']}.png'  title='{$cell['name']}' alt='{$cell['name']}'>
             <h3 style='font-weight: bold; text-align: center;'>{$display}</h3>
-            <select id='{$cell['id']} size' class=\"form-control\" id=\"exampleSelect1\">
+            <select id='{$cell['pizza_id']} size' class=\"form-control\" id=\"exampleSelect1\">
                     <option>Small</option>
                     <option>Medium</option>
                     <option>Large</option>
             </select>
             <div class='input-group'>
                 <span class='input-group-btn'>
-                    <button class='btn btn-default btn-number' onclick=\"quantity(-1,'{$cell['id']}')\">-</button>
+                    <button class='btn btn-default btn-number' onclick=\"quantity(-1,'{$cell['pizza_id']}')\">-</button>
                 </span>
-                <input type='number' class='form-control input-number' id='{$cell['id']}' value=1 min=1 style='text-align: center'>
+                <input type='number' class='form-control input-number' id='{$cell['pizza_id']}' value=1 min=1 style='text-align: center'>
                 <span class='input-group-btn'>
-                    <button class='btn btn-default btn-number' onclick=\"quantity(1,'{$cell['id']}')\">+</button>
+                    <button class='btn btn-default btn-number' onclick=\"quantity(1,'{$cell['pizza_id']}')\">+</button>
                 </span>
                 <span class='input-group-btn'>
-                    <button class='quantity-right-plus btn btn-success btn-number' onclick=\"cartAdd('{$cell['id']}');\">Add</button>
+                    <button class='quantity-right-plus btn btn-success btn-number' onclick=\"cartAdd('{$cell['pizza_id']}');\">Add</button>
                 </span>
             </div>
             </div>";
@@ -56,6 +74,7 @@ include_once("db.php"); //Includes db.php file as if it was copy-pasted
     </td>
     </tr>
 </table>
+
 
 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">

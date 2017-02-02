@@ -79,6 +79,6 @@ function placeOrder () {
         url: "order.php",
         type: 'POST',
         data: {'order' : JSON.stringify(order)},
-        success: function(data){alert(data);}
+        success: function(data){alert(data); document.getElementById('success').toggle();}
     });
 }
