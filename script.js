@@ -1,14 +1,26 @@
 var cart = [];
 var source = [];
-var session = sessionStorage.getItem("sessionCart");
-if (session != null) {cart = JSON.parse(sessionStorage.getItem("sessionCart"));}
+var session = localStorage.getItem("sessionCart");
+if (session != null) {cart = JSON.parse(localStorage.getItem("sessionCart"));}
 
-$('document').ready(cartDisplay);
+$('document').ready(initialize);
 
-$.ajax({
-    url: "request.php",
-    success: function(result){source = JSON.parse(result);}
-});
+function initialize()   {
+    cartDisplay();
+    $.ajax({
+        url: "request.php",
+        success: function(result){source = JSON.parse(result);}
+    });
+    alert(localStorage.getItem("success"));
+    if (localStorage.getItem("success") === true)   {
+        $('#success').append(
+            "<div class='alert alert-success alert-dismissible fade show' role='alert'>" +
+            "<button type='button' class='close' data-dismiss='alert' aria-label='Close'>" +
+            "<span aria-hidden='true'>&times;</span></button>" +
+            "<strong>Success!</strong> Your order was successfully placed.</div>");
+        localStorage.setItem("success", false);
+    }
+}
 
 function cartAdd(id) {
     var amount = parseInt(document.getElementById(id).value);
@@ -34,7 +46,7 @@ function cartRemove(id)  {
 }
 
 function cartDisplay () {
-    if (cart != null) {sessionStorage.setItem("sessionCart", JSON.stringify(cart));}
+    if (cart != null) {localStorage.setItem("sessionCart", JSON.stringify(cart));}
     $('#contents').empty();
     $(cart).each(function(i){
         $('#contents').append(
@@ -54,13 +66,13 @@ function cartSearch(id){
 
 function cartClear()    {
     cart = [];
-    sessionStorage.removeItem("sessionCart");
+    localStorage.removeItem("sessionCart");
     cartDisplay();
 }
 
 function sourceSearch(id, term) {
     for (var x = 0; x < source.length; x++) {
-        if (source[x].id == id) {
+        if (source[x].pizza_id == id) {
             if (term == 'name') {return source[x].name}
             else {return source[x].price}
         }
@@ -79,6 +91,6 @@ function placeOrder () {
         url: "order.php",
         type: 'POST',
         data: {'order' : JSON.stringify(order)},
-        success: function(data){alert(data); document.getElementById('success').toggle();}
+        success: function(data){cartClear();localStorage.setItem("success", true);alert(data);}
     });
 }

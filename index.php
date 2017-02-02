@@ -26,12 +26,7 @@ include_once("db.php"); //Includes db.php file as if it was copy-pasted
     </div>
 </nav>
 
-<div class="alert alert-success alert-dismissible fade show" id="success" style="visibility: hidden" role="alert">
-    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-    </button>
-    <strong>Success!</strong> Your order was successfully placed.
-</div>
+<div id="success"></div>
 
 <table style="margin: 10px"><tr>
     <td id="menu" style="width: 80%;">
